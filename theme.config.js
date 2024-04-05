@@ -1,8 +1,4 @@
 export default {
-    docsRepository: 'https://github.com/lordsforsaken/wiki',
-    repository: 'https://github.com/lordsforsaken/wiki',
-    titleSuffix: ' – LF Wiki',
-
     logo: (
         <>
             <span className="mr-2 font-extrabold hidden md:inline">Lords Forsaken Wiki</span>
@@ -30,12 +26,9 @@ export default {
         </>
     ),
 
-    search: true,
-
-    prevLinks: false,
-    nextLinks: false,
-
-    footer: true,
-    footerEditOnGitHubLink: true,
-    footerText: <>© ATLauncher 2024{new Date().getFullYear() === 2021 ? '' : ` - ${new Date().getFullYear()}`}</>,
+    // search: true,
+    footer: {
+        // footerEditOnGitHubLink: true,
+        text: <>© Lords Forsaken 2024{new Date().getFullYear() === 2021 ? '' : ` - ${new Date().getFullYear()}`}</>
+    },
 };

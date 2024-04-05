@@ -1,4 +1,8 @@
+
+<center><img src="https://dvaiulh40vjp3.cloudfront.net/logos-icons/main4.png" width="500"/></center>
+
 # Welcome to the Forsaken Lords Wiki
+
 Embark on a journey through the rich lore and vibrant worlds of Forsaken Lords. This compendium is your ultimate guide for navigating the realms, mastering the mechanics, and uncovering the secrets of an epic adventure.
 
 This wiki is designed to be a specialized repository for all things Forsaken Lords — from the minutiae of game mechanics to strategies for conquering the toughest dungeons. Our goal is to avoid duplicating the broader content found on general gaming wikis and instead focus on what makes Forsaken Lords unique.
