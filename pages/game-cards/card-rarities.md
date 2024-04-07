@@ -2,6 +2,18 @@
 
 The world of Forsaken Lords is filled with items and cards of varying degrees of scarcity, each classified into a distinct tier of rarity. These tiers not only determine the likelihood of encountering such treasures but also significantly influence their value in the player-to-player (P2P) marketplace and the rental markets. Below is a guide to the different rarities, their odds of discovery, and their impact on the game's economy.
 
+## Rarities color codes
+
+### Color codes
+
+| Rarity     | Color  | Example |
+|------------|--------|---------|
+| Common     | Gray   | <img src="https://dvaiulh40vjp3.cloudfront.net/cards/webp/v2/silver/Raider.webp" style="max-width:100px; display:block; margin-left:auto; margin-right:auto;"/> |
+| Rare       | Blue   | <img src="https://dvaiulh40vjp3.cloudfront.net/cards/webp/v2/silver/Osiris.webp" style="max-width:100px; display:block; margin-left:auto; margin-right:auto;"/> |
+| Epic       | Pink   | <img src="https://dvaiulh40vjp3.cloudfront.net/cards/webp/v2/silver/Babi.webp" style="max-width:100px; display:block; margin-left:auto; margin-right:auto;"/> |
+| Legendary  | Golden | <img src="https://dvaiulh40vjp3.cloudfront.net/cards/webp/v2/silver/Pythagoras.webp" style="max-width:100px; display:block; margin-left:auto; margin-right:auto;"/> |
+
+
 ## Rarity Tiers and Odds
 
 The following table provides an overview of the rarity tiers along with their odds of discovery:
