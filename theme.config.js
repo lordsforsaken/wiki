@@ -10,13 +10,13 @@ export default {
             <meta name="theme-color" content="#ffffff" />
             <meta name="viewport" content="width=device-width, initial-scale=1.0" />
             <meta httpEquiv="Content-Language" content="en" />
-            <meta name="description" content="ATLauncher Wiki" />
-            <meta name="og:description" content="ATLauncher Wiki" />
+            <meta name="description" content="Lords Forsaken Wiki" />
+            <meta name="og:description" content="Lords Forsaken Wiki" />
             <meta name="twitter:card" content="summary_large_image" />
-            <meta name="twitter:site:domain" content="wiki.atlauncher.com" />
-            <meta name="twitter:url" content="https://wiki.atlauncher.com" />
-            <meta name="og:title" content="ATLauncher Wiki" />
-            <meta name="apple-mobile-web-app-title" content="ATLauncher Wiki" />
+            <meta name="twitter:site:domain" content="wiki.lordsforsaken.com" />
+            <meta name="twitter:url" content="https://wiki.lordsforsaken.com" />
+            <meta name="og:title" content="Lords Forsaken Wiki" />
+            <meta name="apple-mobile-web-app-title" content="Lords Forsaken Wiki" />
             <link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png" />
             <link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png" />
             <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
