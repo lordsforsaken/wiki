@@ -21,13 +21,18 @@ const DynamicTable = ({ url }) => {
                 </tr>
             </thead>
             <tbody>
-                {abilities.map((ability, index) => (
-                    <tr key={index}>
-                        <td>{ability.name}</td>
-                        <td><img src={`https://dvaiulh40vjp3.cloudfront.net/abilities-icons/${ability.name.replace(" ", "-").toLowerCase()}.webp`} alt={ability.name} style={{ width: "100px" }} /></td>
-                        <td>{ability.description}</td>
-                    </tr>
-                ))}
+                {abilities.map((ability, index) => {
+                    // console.log(ability.name)
+                    const url = `https://dvaiulh40vjp3.cloudfront.net/abilities-icons/${ability.name.replace(/\s+/g, '-').toLowerCase()}.webp`
+                    console.log(url)
+                    return (
+                        <tr key={index}>
+                            <td>{ability.name}</td>
+                            <td><img src={url} alt={ability.name} style={{ width: "100px" }} /></td>
+                            <td>{ability.description}</td>
+                        </tr>
+                    )
+                })}
             </tbody>
         </table>
     );
