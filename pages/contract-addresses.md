@@ -1,6 +1,6 @@
 # Contract Addresses for Lords Forsaken
 
-Welcome to the official contract address resource page for "Lords Forsaken." Below is a table with direct links to various smart contracts associated with our game on the blockchain. These addresses are crucial for verifying transactions and interacting with our game's ecosystem.
+Welcome to the official contract address resource page for Lords Forsaken. Below is a table with direct links to various smart contracts associated with our game on the blockchain. These addresses are crucial for verifying transactions and interacting with our game's ecosystem.
 
 | Address Name                   | Contract Address                                                                                             |
 |-------------------------------|--------------------------------------------------------------------------------------------------------------|
