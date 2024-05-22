@@ -1,4 +1,8 @@
 {
   "index": "Home",
-  "game-cards": "Cards"
+  "tokenomics": "Tokenomics",
+  "game-cards": "Cards",
+  "roadmap": "Roadmap",
+  "compliance": "Security and Compliance",
+  "contract-addresses": "Contract Addresses"
 }
