@@ -19,4 +19,4 @@ The Play-to-Earn model is central to "Lords Forsaken," offering players the oppo
 ### Sustainable Economy Design
 - **Vesting Contracts for P2E Rewards:** To promote a gradual and sustained token release into the economy, P2E rewards are distributed through vesting contracts. This ensures a controlled flow of tokens, preventing inflation and encouraging long-term engagement.
 
-This comprehensive P2E framework ensures that "Lords Forsaken" is not just a game, but a thriving ecosystem where players can genuinely profit from their gaming skills and strategic thinking. By aligning player rewards with game progress and community involvement, we foster a deeply engaging and economically viable gaming experience.
+This comprehensive P2E framework ensures that Lords Forsaken is not just a game, but a thriving ecosystem where players can genuinely profit from their gaming skills and strategic thinking. By aligning player rewards with game progress and community involvement, we foster a deeply engaging and economically viable gaming experience.

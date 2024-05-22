@@ -1,5 +1,5 @@
 ## Distribution Details
-The FAITH Token is strategically allocated to ensure sustainable growth of the "Lords Forsaken" ecosystem, supporting both the game's operational framework and its community. The token distribution is carefully planned to align with the long-term objectives of the game and its stakeholders:
+The FAITH Token is strategically allocated to ensure sustainable growth of the Lords Forsaken ecosystem, supporting both the game's operational framework and its community. The token distribution is carefully planned to align with the long-term objectives of the game and its stakeholders:
 
 - **Founders (20%):** A total of 20% of the FAITH tokens are allocated to the founders. This allocation is vested over a period of one year to align founder incentives with the long-term success and health of the game. The gradual release of tokens ensures that the founders remain committed to improving and expanding the game over time.
 
@@ -7,6 +7,6 @@ The FAITH Token is strategically allocated to ensure sustainable growth of the "
 
 - **Project Treasury (50%):** The largest portion of the token supply, 50%, is reserved for the project treasury. These funds are utilized to cover various operational costs including but not limited to linex bribes, organizing tournaments, community initiatives, and auditing services. This allocation ensures the game has sufficient capital to support ongoing development, marketing efforts, and community-driven activities, which are essential for the game’s growth and sustainability.
 
-![FAITH Token Distribution Pie Chart](https://dvaiulh40vjp3.cloudfront.net/wiki/charts/distribution.png)
+![FAITH Token Distribution Pie Chart](https://dvaiulh40vjp3.cloudfront.net/wiki/charts/distributionv2.png)
 
-This distribution strategy not only supports the initial launch and ongoing development of "Lords Forsaken" but also ensures that the game remains attractive to new players, retains current players, and operates smoothly on a day-to-day basis.
+This distribution strategy not only supports the initial launch and ongoing development of Lords Forsaken but also ensures that the game remains attractive to new players, retains current players, and operates smoothly on a day-to-day basis.

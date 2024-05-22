@@ -1,5 +1,5 @@
 ## Play-to-Earn Emission Schedule
-The FAITH Token is minted in a one-time event at deployment, creating a fixed total of 100 million tokens. This finite supply ensures that the token's value is protected against inflation. To manage the distribution of these tokens effectively within the "Lords Forsaken" ecosystem, a distinct emission schedule is applied specifically for the Play-to-Earn (P2E) rewards.
+The FAITH Token is minted in a one-time event at deployment, creating a fixed total of 100 million tokens. This finite supply ensures that the token's value is protected against inflation. To manage the distribution of these tokens effectively within the Lords Forsaken ecosystem, a distinct emission schedule is applied specifically for the Play-to-Earn (P2E) rewards.
 
 ### Weekly Reduction Rate
 The P2E token distribution incorporates a weekly reduction rate of 2%. This methodical decrement is designed to mimic deflationary cryptocurrency strategies, ensuring a predictable decrease in new token availability over time. This helps in stabilizing the token's value as the game progresses.
