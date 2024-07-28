@@ -15,7 +15,7 @@ function MyApp({ Component, pageProps }) {
         <meta name="twitter:site" content="@lordsforsak3n" />
         <meta name="twitter:title" content="Lords Forsaken Wiki" />
         <meta name="twitter:description" content="Explore the comprehensive wiki for the game Lords Forsaken." />
-        <meta name="twitter:image" content="https://dvaiulh40vjp3.cloudfront.net/logos-icons/black-logo.png" />
+        <meta name="twitter:image" content="https://dvaiulh40vjp3.cloudfront.net/logos-icons/main.png" />
       </Head>
       <Component {...pageProps} />
     </>
