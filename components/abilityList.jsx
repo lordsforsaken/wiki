@@ -15,7 +15,7 @@ const DynamicTable = ({ url }) => {
 
     // Helper function to determine the style based on the enabled status
     const getStyle = (enabled) => ({
-        color: enabled == 'true' ? 'green' : 'red'
+        color: enabled ? 'green' : 'red'
     });
 
     return (
@@ -35,7 +35,7 @@ const DynamicTable = ({ url }) => {
                         <tr key={index}>
                             <td>{ability.name}</td>
                             <td style={getStyle(ability.enabled)}>
-                                {ability.enabled == 'true' ? 'Yes' : 'No'}
+                                {ability.enabled ? 'Yes' : 'No'}
                             </td>
                             <td><img src={url} alt={ability.name} style={{ width: "100px" }} /></td>
                             <td>{ability.description}</td>
