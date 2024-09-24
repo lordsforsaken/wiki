@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from 'react';
+const cdnURL = process.env.NEXT_PUBLIC_CDN_URL;
 
 const DynamicTable = ({ url }) => {
     const [abilities, setAbilities] = useState([]);
@@ -15,7 +16,8 @@ const DynamicTable = ({ url }) => {
 
     // Helper function to determine the style based on the enabled status
     const getStyle = (enabled) => ({
-        color: enabled ? 'green' : 'red'
+        color: enabled ? 'green' : 'red',
+        textAlign: 'center'
     });
 
     return (
@@ -30,19 +32,23 @@ const DynamicTable = ({ url }) => {
             </thead>
             <tbody>
                 {abilities.map((ability, index) => {
-                    const url = `https://dvaiulh40vjp3.cloudfront.net/abilities-icons/${ability.name.replace(/\s+/g, '-').toLowerCase()}.webp`;
+                    const url = `${cdnURL}/abilities-icons/icons/${ability.name.replace(/\s+/g, '-').toLowerCase()}.png`;
                     return (
                         <tr key={index}>
-                            <td>{ability.name}</td>
+                            <td style={{ textAlign: 'center' }}>{ability.name}</td>
                             <td style={getStyle(ability.enabled)}>
                                 {ability.enabled ? 'Yes' : 'No'}
                             </td>
-                            <td><img src={url} alt={ability.name} style={{ width: "100px" }} /></td>
-                            <td>{ability.description}</td>
+                            <td>
+                                <img src={url} alt={ability.name} style={{ width: "75px", marginBottom: "10px" }} />
+                            </td>
+                            <td style={{ textAlign: 'center' }}>{ability.description}</td>
                         </tr>
-                    )
+                    );
                 })}
             </tbody>
+
+
         </table>
     );
 };
