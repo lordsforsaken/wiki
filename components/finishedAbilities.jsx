@@ -21,35 +21,33 @@ const DynamicTable = ({ url }) => {
     });
 
     return (
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Enabled</th>
-                    <th>Icon</th>
-                    <th>Description</th>
+      <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Enabled</th>
+              <th>Icon</th>
+              <th>Description</th>
+            </tr>
+          </thead>
+          <tbody>
+            {abilities.map((ability, index) => {
+              const url = `${cdnURL}/abilities-icons/icons/${ability.name.replace(/\s+/g, '-').toLowerCase()}.png`;
+              return (
+                <tr key={index}>
+                    <td style={{ textAlign: 'center' }}>{ability.name}</td>
+                    <td style={getStyle(ability.enabled)}>
+                        {ability.enabled ? 'Yes' : 'No'}
+                    </td>
+                    <td>
+                        <img src={url} alt={ability.name} style={{ width: "75px", marginBottom: "10px" }} />
+                    </td>
+                    <td style={{ textAlign: 'center' }}>{ability.description}</td>
                 </tr>
-            </thead>
-            <tbody>
-                {abilities.map((ability, index) => {
-                    const url = `${cdnURL}/abilities-icons/icons/${ability.name.replace(/\s+/g, '-').toLowerCase()}.png`;
-                    return (
-                        <tr key={index}>
-                            <td style={{ textAlign: 'center' }}>{ability.name}</td>
-                            <td style={getStyle(ability.enabled)}>
-                                {ability.enabled ? 'Yes' : 'No'}
-                            </td>
-                            <td>
-                                <img src={url} alt={ability.name} style={{ width: "75px", marginBottom: "10px" }} />
-                            </td>
-                            <td style={{ textAlign: 'center' }}>{ability.description}</td>
-                        </tr>
-                    );
-                })}
-            </tbody>
-
-
-        </table>
+              );
+            })}
+          </tbody>
+      </table>
     );
 };
 
